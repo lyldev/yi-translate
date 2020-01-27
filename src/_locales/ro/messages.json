@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Tradu rapid textul selectat pe pagina web. In fereastra din toolbar, poți traduce textul introdus."
@@ -219,7 +219,7 @@
     "message": "Arată pagina de opțiuni cand se actualizează"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Afișează pagina de opțiuni când Simple Translate este actualizat. Poți afla rapid conținutul actualizării."
+    "message": "Afișează pagina de opțiuni când Yi Translate este actualizat. Poți afla rapid conținutul actualizării."
   },
   "isDebugModeLabel": {
     "message": "Activați modul de depanare"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Eroare: Verifică starea conexiunii la rețea."

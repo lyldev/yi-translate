@@ -5,5 +5,5 @@
   "devDirectory": "dev",
   "distDirectory": "dist",
   "tempDirectory": "temp",
-  "extName": "simple-translate"
+  "extName": "yi-translate"
 }

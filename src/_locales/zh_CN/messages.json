@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "快捷翻译网页上选中的文本。亦可在工具栏弹窗中输入文本进行翻译。"
@@ -219,7 +219,7 @@
     "message": "更新时显示选项页面"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate 更新后显示选项页面从而快速了解更新内容。"
+    "message": "Yi Translate 更新后显示选项页面从而快速了解更新内容。"
   },
   "isDebugModeLabel": {
     "message": "启用调试模式"
@@ -282,7 +282,7 @@
     "message": "请捐助"
   },
   "donationCaptionLabel": {
-    "message": "感谢您使用Simple Translate！<br>您的支持会是我继续开发此款附加组件的动力。<br>如果您喜欢Simple Translate，希望您可以考虑捐助。"
+    "message": "感谢您使用Yi Translate！<br>您的支持会是我继续开发此款附加组件的动力。<br>如果您喜欢Yi Translate，希望您可以考虑捐助。"
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp 电子礼品卡"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/zh-CN/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/zh-CN/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "错误：请检查您的网络连接状态"

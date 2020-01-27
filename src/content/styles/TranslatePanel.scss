@@ -1,9 +1,9 @@
-#simple-translate {
-  .simple-translate-panel {
+#yi-translate {
+  .yi-translate-panel {
     all: initial;
     position: fixed;
     overflow: hidden;
-    background-color: var(--simple-translate-main-bg);
+    background-color: var(--yi-translate-main-bg);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
     z-index: 2147483646;
@@ -17,7 +17,7 @@
       visibility: visible;
     }
 
-    .simple-translate-result-wrapper {
+    .yi-translate-result-wrapper {
       all: initial;
       position: absolute;
       font-size: inherit;
@@ -32,12 +32,12 @@
       max-height: 100%;
       overflow: auto;
 
-      .simple-translate-move {
+      .yi-translate-move {
         height: 15px;
         cursor: grab;
       }
 
-      .simple-translate-result-contents {
+      .yi-translate-result-contents {
         padding: 0px 18px 15px;
         p {
           all: initial;
@@ -53,15 +53,15 @@
           opacity: inherit;
 
           &::-moz-selection {
-            background: var(--simple-translate-line);
+            background: var(--yi-translate-line);
           }
 
-          &.simple-translate-result {
-            color: var(--simple-translate-main-text);
+          &.yi-translate-result {
+            color: var(--yi-translate-main-text);
           }
-          &.simple-translate-candidate,
-          &.simple-translate-error {
-            color: var(--simple-translate-sub-text);
+          &.yi-translate-candidate,
+          &.yi-translate-error {
+            color: var(--yi-translate-sub-text);
             margin-top: 1em;
             &:empty {
               margin-top: 0;

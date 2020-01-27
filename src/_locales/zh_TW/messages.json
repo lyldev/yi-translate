@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "快速翻譯網頁上選取的文字。在工具列彈出式視窗中，您可以翻譯輸入的文字。"
@@ -219,7 +219,7 @@
     "message": "更新時顯示選項頁面"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "更新 Simple Translate 時顯示選項頁面。讓您可以快速瞭解更新內容。"
+    "message": "更新 Yi Translate 時顯示選項頁面。讓您可以快速瞭解更新內容。"
   },
   "isDebugModeLabel": {
     "message": "啟用偵錯模式"
@@ -282,7 +282,7 @@
     "message": "請贊助我吧！"
   },
   "donationCaptionLabel": {
-    "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您可以贊助我。"
+    "message": "感謝您使用 Yi Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Yi Translate，希望您可以贊助我。"
   },
   "amazonTitleLabel": {
     "message": "贊助我 amazon 電子禮品卡"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/zh-TW/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/zh-TW/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "錯誤：請檢查您的網路連線狀態。"

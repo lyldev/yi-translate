@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Übersetzen Sie schnell ausgewählten Text auf einer Webseite. Im Popup-Fenster der Symbolleiste können Sie den eingegebenen Text übersetzen."
@@ -219,7 +219,7 @@
     "message": "Öffne die Einstellungen bei Aktualisierungen"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Zeigt die Einstellugen an, wenn Simple Translate aktualisiert wird. Sie können den Inhalt des Updates schnell erkennen."
+    "message": "Zeigt die Einstellugen an, wenn Yi Translate aktualisiert wird. Sie können den Inhalt des Updates schnell erkennen."
   },
   "isDebugModeLabel": {
     "message": "Debugs-Modus aktivieren"
@@ -282,7 +282,7 @@
     "message": "Bitte spende"
   },
   "donationCaptionLabel": {
-    "message": "Danke für das Benutzen von Simple Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Simple Translate magst, wäre es schön, wenn du etwas spenden würdest."
+    "message": "Danke für das Benutzen von Yi Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Yi Translate magst, wäre es schön, wenn du etwas spenden würdest."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGeschenkekarten"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/de/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/de/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Fehler: Überprüfen Sie den Netzwerkstatus."

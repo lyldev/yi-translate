@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Nhanh chóng dịch văn bản đã chọn trên trang web. Trong thanh công cụ bật lên, bạn có thể dịch văn bản nguồn."
@@ -219,7 +219,7 @@
     "message": "Hiển thị trang tùy chọn khi cập nhật"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Hiển thị trang tùy chọn khi Simple Translate được cập nhật. Bạn có thể biết nội dung cập nhật một cách nhanh chóng."
+    "message": "Hiển thị trang tùy chọn khi Yi Translate được cập nhật. Bạn có thể biết nội dung cập nhật một cách nhanh chóng."
   },
   "isDebugModeLabel": {
     "message": "Bật chế độ gỡ lỗi"
@@ -282,7 +282,7 @@
     "message": "Hãy đóng góp"
   },
   "donationCaptionLabel": {
-    "message": "Cảm ơn bạn đã sử dụng Simple Translate.<br>Sự hỗ trợ của bạn sẽ là một sự khích lệ lớn, khi tôi tiếp tục phát triển tiện ích mở rộng.<br>Nếu bạn thích Simple Translate, tôi sẽ rất vui nếu bạn có thể xem xét quyên góp."
+    "message": "Cảm ơn bạn đã sử dụng Yi Translate.<br>Sự hỗ trợ của bạn sẽ là một sự khích lệ lớn, khi tôi tiếp tục phát triển tiện ích mở rộng.<br>Nếu bạn thích Yi Translate, tôi sẽ rất vui nếu bạn có thể xem xét quyên góp."
   },
   "amazonTitleLabel": {
     "message": "Thẻ eGift của amazon.co.jp"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Lỗi: Kiểm tra trạng thái kết nối mạng."

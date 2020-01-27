@@ -1,5 +1,5 @@
-#simple-translate {
-  .simple-translate-button {
+#yi-translate {
+  .yi-translate-button {
     all: initial;
     background-color: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
@@ -21,11 +21,11 @@
       opacity: 1;
       visibility: visible;
       transition-duration: 0ms;
-      animation: simple-translate-showButton 200ms;
+      animation: yi-translate-showButton 200ms;
     }
   }
 
-  @keyframes simple-translate-showButton {
+  @keyframes yi-translate-showButton {
     0% {
       transform: scale3d(1, 1, 1);
     }

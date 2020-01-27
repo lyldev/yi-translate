@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Översätt markerad text på en hemsida.. I verktygsfältspopupen, kan du översätta inmatad text."
@@ -219,7 +219,7 @@
     "message": "Visa alternativsidan efter uppdatering"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Visar alternativsidan efter att Simple Translate har uppdaterats. Du kan då snabbt se vad som har uppdaterats."
+    "message": "Visar alternativsidan efter att Yi Translate har uppdaterats. Du kan då snabbt se vad som har uppdaterats."
   },
   "isDebugModeLabel": {
     "message": "Aktivera felsökningsläge"
@@ -282,7 +282,7 @@
     "message": "Donera gärna"
   },
   "donationCaptionLabel": {
-    "message": "Tack för att du använder Simple Translate.<br>Ditt stöd är ett stort främjande, eftersom vi fortsätter att utveckla tillägget.<br>Om du gillar Simple Translate, skulle vi uppskatta om du donerar."
+    "message": "Tack för att du använder Yi Translate.<br>Ditt stöd är ett stort främjande, eftersom vi fortsätter att utveckla tillägget.<br>Om du gillar Yi Translate, skulle vi uppskatta om du donerar."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Fel: Kontrollera status för nätverksanslutningen."

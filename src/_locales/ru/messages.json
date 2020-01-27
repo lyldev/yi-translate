@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Быстрый перевод выделенного текста на веб-странице. Можно переводить текст в окошке, всплывающем на панели инструментов."
@@ -282,7 +282,7 @@
     "message": "Пожалуйста, поблагодарите автора"
   },
   "donationCaptionLabel": {
-    "message": "Спасибо за использование Simple Translate.<br>Ваша поддержка это большая помощь в дальнейшем развитии расширения.<br>Если вам нравится Simple Translate, пожалуйста, подумайте о внесении небольшого пожертвования."
+    "message": "Спасибо за использование Yi Translate.<br>Ваша поддержка это большая помощь в дальнейшем развитии расширения.<br>Если вам нравится Yi Translate, пожалуйста, подумайте о внесении небольшого пожертвования."
   },
   "amazonTitleLabel": {
     "message": "Карты eGift от amazon.co.jp"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ru_RU"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/ru-RU/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/ru-RU/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Ошибка: Проверьте состояние сетевого подключения."

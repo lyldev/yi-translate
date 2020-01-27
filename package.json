@@ -1,8 +1,9 @@
 {
-  "name": "simple-translate",
+  "name": "yi-translate",
   "version": "0.0.0",
   "dependencies": {
     "browser-info": "^1.2.0",
+    "js-md5": "^0.7.3",
     "loglevel": "^1.6.1",
     "query-string": "^6.1.0",
     "react": "^16.4.0",
@@ -42,18 +43,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sienori/simple-translate.git"
+    "url": "git+https://github.com/LeeXTZ/yi-translate.git"
   },
-  "author": "Sienori",
+  "author": "LeeXTZ",
   "license": "MPL-2.0",
-  "description": "A simple and powerful WebExtensions for translating pages and text.",
+  "description": "A powerful and friendly translation WebExtensions, inspired by simple-translate@sienori:https://github.com/sienori/simple-translate",
   "bugs": {
-    "url": "https://github.com/sienori/simple-translate/issues"
+    "url": "https://github.com/LeeXTZ/yi-translate/issues"
   },
-  "homepage": "https://github.com/sienori/simple-translate#readme",
+  "homepage": "https://github.com/LeeXTZ/yi-translate#readme",
   "main": ".src/manifest.json",
   "keywords": [
     "webextensions",
+    "translate",
+    "google translate",
+    "baidu translate",
     "firefox",
     "chrome"
   ]

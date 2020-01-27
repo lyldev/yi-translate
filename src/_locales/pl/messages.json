@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
@@ -219,7 +219,7 @@
     "message": "Display option page when updating"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Display the options page when Yi Translate is updated. You can know the update contents quickly."
   },
   "isDebugModeLabel": {
     "message": "Enable debug mode"
@@ -282,7 +282,7 @@
     "message": "Proszę o dokonanie dotacji"
   },
   "donationCaptionLabel": {
-    "message": "Dziękujemy za korzystanie z Simple Translate.<br> Twoje wsparcie jest niesamowice dużo dla mnie warte i zachęca do dalszej pracy i w dalszym ciągu rozwijam dodatek.<br>Jeżeli lubisz Simple Translate, byłbym bardzo wdzięczny jeżeli móglbyś/aś rozważyć wykonanie dotacji."
+    "message": "Dziękujemy za korzystanie z Yi Translate.<br> Twoje wsparcie jest niesamowice dużo dla mnie warte i zachęca do dalszej pracy i w dalszym ciągu rozwijam dodatek.<br>Jeżeli lubisz Yi Translate, byłbym bardzo wdzięczny jeżeli móglbyś/aś rozważyć wykonanie dotacji."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp karty podarunkowe"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Error: Check network connection status."

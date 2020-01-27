@@ -37,10 +37,10 @@ export default class TranslatePanel extends Component {
   };
 
   handleDragStart = e => {
-    if (e.target.className !== "simple-translate-move") return;
+    if (e.target.className !== "yi-translate-move") return;
     this.isDragging = true;
 
-    const rect = document.querySelector(".simple-translate-panel").getBoundingClientRect();
+    const rect = document.querySelector(".yi-translate-panel").getBoundingClientRect();
     this.dragOffsets = {
       x: e.clientX - rect.left,
       y: e.clientY - rect.top
@@ -51,7 +51,7 @@ export default class TranslatePanel extends Component {
   handleDragOver = e => {
     if (!this.isDragging) return;
     e.preventDefault();
-    const panel = document.querySelector(".simple-translate-panel");
+    const panel = document.querySelector(".yi-translate-panel");
     panel.style.top = `${e.clientY - this.dragOffsets.y}px`;
     panel.style.left = `${e.clientX - this.dragOffsets.x}px`;
   };
@@ -61,7 +61,7 @@ export default class TranslatePanel extends Component {
     e.preventDefault();
     this.isDragging = false;
 
-    const panel = document.querySelector(".simple-translate-panel");
+    const panel = document.querySelector(".yi-translate-panel");
     panel.style.top = `${e.clientY - this.dragOffsets.y}px`;
     panel.style.left = `${e.clientX - this.dragOffsets.x}px`;
   };
@@ -188,21 +188,21 @@ export default class TranslatePanel extends Component {
 
     return (
       <div
-        className={`simple-translate-panel ${shouldShow ? "isShow" : ""}`}
+        className={`yi-translate-panel ${shouldShow ? "isShow" : ""}`}
         ref="panel"
         style={panelStyles}
       >
-        <div className="simple-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
-          <div className="simple-translate-move" draggable="true" ref="move"></div>
-          <div className="simple-translate-result-contents">
-            <p className="simple-translate-result" style={resultStyles}>
+        <div className="yi-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
+          <div className="yi-translate-move" draggable="true" ref="move"></div>
+          <div className="yi-translate-result-contents">
+            <p className="yi-translate-result" style={resultStyles}>
               {splitLine(resultText)}
             </p>
-            <p className="simple-translate-candidate" style={candidateStyles}>
+            <p className="yi-translate-candidate" style={candidateStyles}>
               {splitLine(candidateText)}
             </p>
             {isError && (
-              <p className="simple-translate-error" style={candidateStyles}>
+              <p className="yi-translate-error" style={candidateStyles}>
                 {getErrorMessage(statusText)}
               </p>
             )}

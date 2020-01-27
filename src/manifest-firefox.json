@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
 
-  "version": "2.2.0",
+  "version": "0.0.1",
   "name": "__MSG_extName__",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
 
   "applications": {
     "gecko": {
-      "id": "simple-translate@sienori"
+      "id": "yi-translate@LeeXTZ"
     }
   },
 

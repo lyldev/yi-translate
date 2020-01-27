@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Webページ上の選択されたテキストを瞬時に翻訳します。ツールバーポップアップではテキストを入力して翻訳できます。"
@@ -219,7 +219,7 @@
     "message": "更新時にオプションページを表示する"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translateが更新されたときにオプションページを表示します。更新内容をすぐに知ることができます。"
+    "message": "Yi Translateが更新されたときにオプションページを表示します。更新内容をすぐに知ることができます。"
   },
   "isDebugModeLabel": {
     "message": "デバッグモードを有効にする"
@@ -282,7 +282,7 @@
     "message": "ご寄付のお願い"
   },
   "donationCaptionLabel": {
-    "message": "Simple Translateをご利用いただきありがとうございます。<br>アドオンの開発を続けていく上で，皆様のご支援が大きな励みになります。<br>もしあなたがSimple Translateを気に入ってくれたなら，ご寄付をご検討いただけると幸いです。"
+    "message": "Yi Translateをご利用いただきありがとうございます。<br>アドオンの開発を続けていく上で，皆様のご支援が大きな励みになります。<br>もしあなたがYi Translateを気に入ってくれたなら，ご寄付をご検討いただけると幸いです。"
   },
   "amazonTitleLabel": {
     "message": "Amazonギフト券 Eメールタイプ"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ja_JP"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/ja/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/ja/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "エラー: ネットワークの接続状態を確認してください。"

@@ -23,8 +23,8 @@ const handleMouseUp = async e => {
   const isLeftClick = e.button === 0;
   const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
   const isInThisElement =
-    document.querySelector("#simple-translate") &&
-    document.querySelector("#simple-translate").contains(e.target);
+    document.querySelector("#yi-translate") &&
+    document.querySelector("#yi-translate").contains(e.target);
   if (!isLeftClick) return;
   if (isInPasswordField) return;
   if (isInThisElement) return;
@@ -161,7 +161,7 @@ const disableExtensionByUrlList = () => {
 };
 
 const removeTranslatecontainer = async () => {
-  const element = document.getElementById("simple-translate");
+  const element = document.getElementById("yi-translate");
   if (!element) return;
 
   ReactDOM.unmountComponentAtNode(element);
@@ -174,11 +174,11 @@ const showTranslateContainer = (
   clickedPosition = null,
   shouldTranslate = false
 ) => {
-  const element = document.getElementById("simple-translate");
+  const element = document.getElementById("yi-translate");
   if (element) return;
   if (!isEnabled) return;
 
-  document.body.insertAdjacentHTML("beforeend", "<div id='simple-translate'></div>");
+  document.body.insertAdjacentHTML("beforeend", "<div id='yi-translate'></div>");
   ReactDOM.render(
     <TranslateContainer
       removeContainer={removeTranslatecontainer}
@@ -187,6 +187,6 @@ const showTranslateContainer = (
       clickedPosition={clickedPosition}
       shouldTranslate={shouldTranslate}
     />,
-    document.getElementById("simple-translate")
+    document.getElementById("yi-translate")
   );
 };

@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Gyorsan lefordítja a weblapon kijelölt szöveget. Az eszköztáron felugró ablakban pedig beírt szöveg fordítható."
@@ -219,7 +219,7 @@
     "message": "Beállítás oldal megjelenítése frissítéskor"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Beállítások oldal megjelenítése amikor Simple Translate frissült. Így gyorsan áttekinthető a frissítés tartalma."
+    "message": "Beállítások oldal megjelenítése amikor Yi Translate frissült. Így gyorsan áttekinthető a frissítés tartalma."
   },
   "isDebugModeLabel": {
     "message": "Hibakeresési mód engedélyezése"
@@ -282,7 +282,7 @@
     "message": "Adomány"
   },
   "donationCaptionLabel": {
-    "message": "Köszönöm, hogy a Simple Translate bővítményt használja.<br>Támogatásával arra ösztönözhet, hogy tovább fejlesszem a bővítményt.<br>Ha tetszik önnek a Simple Translate, örülnék, ha megfontolhatná az adományozást."
+    "message": "Köszönöm, hogy a Yi Translate bővítményt használja.<br>Támogatásával arra ösztönözhet, hogy tovább fejlesszem a bővítményt.<br>Ha tetszik önnek a Yi Translate, örülnék, ha megfontolhatná az adományozást."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp elektronikus ajándék kártya"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=hu_HU"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Hiba: Ellenőrizze a hálózati kapcsolat állapotát."

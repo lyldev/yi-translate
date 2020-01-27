@@ -27,12 +27,12 @@ export default props => {
         updated={query.action === "updated"}
         extraCaption={
           <p className="caption">
-            <a href="https://github.com/sienori/simple-translate/releases" target="_blank">
+            <a href="https://github.com/LeeXTZ/yi-translate/releases" target="_blank">
               Version {extensionVersion}
             </a>
             <span>　</span>
             <a
-              href="https://github.com/sienori/simple-translate/blob/master/BACKERS.md"
+              href="https://github.com/LeeXTZ/yi-translate/blob/master/BACKERS.md"
               target="_blank"
             >
               {browser.i18n.getMessage("backersLabel")}
@@ -46,49 +46,6 @@ export default props => {
         captions={["Mozilla Public License, Version. 2.0"]}
         useRawCaptions={true}
         type={"none"}
-      />
-      <hr />
-      <OptionsContainer title={"donationLabel"} captions={["donationCaptionLabel"]} type={"none"} />
-      <OptionsContainer
-        title={""}
-        captions={[]}
-        type={"none"}
-        extraCaption={
-          <a href={patreonLink} target="_blank">
-            <img
-              src="https://c5.patreon.com/external/logo/become_a_patron_button.png"
-              alt="Donate"
-            />
-          </a>
-        }
-      />
-      <OptionsContainer
-        title={""}
-        captions={[]}
-        type={"none"}
-        extraCaption={
-          <a href={paypalLink} target="_blank">
-            <img
-              src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png"
-              alt="Donate"
-            />
-          </a>
-        }
-      />
-      <OptionsContainer
-        title={""}
-        captions={[]}
-        type={"none"}
-        extraCaption={
-          <div>
-            <p className="caption">
-              <a className="amazonUrl" href={browser.i18n.getMessage("amazonUrl")} target="_blank">
-                {browser.i18n.getMessage("amazonTitleLabel")}
-              </a>
-            </p>
-            <p className="caption">email: {email}</p>
-          </div>
-        }
       />
       <hr />
       <OptionsContainer
@@ -108,7 +65,7 @@ export default props => {
                 </a>
               )}
               <span>　</span>
-              <a href="https://github.com/sienori/simple-translate" target="_blank">
+              <a href="https://github.com/LeeXTZ/yi-translate" target="_blank">
                 GitHub
               </a>
             </p>

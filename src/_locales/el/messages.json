@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "Γρήγορη μετάφραση του επιλεγμένου κειμένου στην ιστοσελίδα. Στο αναδυόμενο παράθυρο της γραμμής εργαλείων, μπορείτε να μεταφράσετε το δοσμένο κείμενο."
@@ -219,7 +219,7 @@
     "message": "Display option page when updating"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Display the options page when Yi Translate is updated. You can know the update contents quickly."
   },
   "isDebugModeLabel": {
     "message": "Enable debug mode"
@@ -282,7 +282,7 @@
     "message": "Please make a donation"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Thank you for using Yi Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Yi Translate, I would be pleased if you could consider donating."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Error: Check network connection status."

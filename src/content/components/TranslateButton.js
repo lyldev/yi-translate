@@ -42,7 +42,7 @@ export default props => {
   return (
     <div
       style={buttonStyle}
-      className={`simple-translate-button ${shouldShow ? "isShow" : ""}`}
+      className={`yi-translate-button ${shouldShow ? "isShow" : ""}`}
       onClick={props.handleButtonClick}
     />
   );

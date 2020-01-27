@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Yi Translate"
   },
   "extDescription": {
     "message": "웹 페이지에서 선택한 텍스트를 빠르게 번역하세요. 툴바 팝업을 이용해 입력한 내용을 번역할 수도 있습니다."
@@ -219,7 +219,7 @@
     "message": "업데이트 후 설정 페이지 열기"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate가 업데이트 된 경우 설정 페이지를 표시합니다. 업데이트 내용을 바로 알 수 있습니다."
+    "message": "Yi Translate가 업데이트 된 경우 설정 페이지를 표시합니다. 업데이트 내용을 바로 알 수 있습니다."
   },
   "isDebugModeLabel": {
     "message": "디버그 모드 활성화"
@@ -297,7 +297,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/ko/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/ko/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
     "message": "오류: 네트워크 연결 상태를 확인하세요."
