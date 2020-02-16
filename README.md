@@ -1,4 +1,4 @@
-# <sub><img src="/src/icons/翻译line.png" width=64px height=64px></sub> Yi Translate
+# <sub><img src="/src/icons/64.png" width=64px height=64px></sub> Yi Translate
 
 #### Select and translate on web page.
 #### Input and translate in toolbar popup.
