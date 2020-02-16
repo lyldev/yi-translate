@@ -48,6 +48,51 @@ export default props => {
         type={"none"}
       />
       <hr />
+      <OptionsContainer title={"donationLabel"} captions={["donationCaptionLabel"]} type={"none"} />
+      <OptionsContainer
+        title={""}
+        captions={[]}
+        type={"none"}
+        extraCaption={
+          <a href={patreonLink} target="_blank">
+            <img
+              src="https://c5.patreon.com/external/logo/become_a_patron_button.png"
+              alt="Donate"
+            />
+          </a>
+        }
+      />
+{/* 
+      <OptionsContainer
+        title={""}
+        captions={[]}
+        type={"none"}
+        extraCaption={
+          <a href={paypalLink} target="_blank">
+            <img
+              src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png"
+              alt="Donate"
+            />
+          </a>
+        }
+      />
+      <OptionsContainer
+        title={""}
+        captions={[]}
+        type={"none"}
+        extraCaption={
+          <div>
+            <p className="caption">
+              <a className="amazonUrl" href={browser.i18n.getMessage("amazonUrl")} target="_blank">
+                {browser.i18n.getMessage("amazonTitleLabel")}
+              </a>
+            </p>
+            <p className="caption">email: {email}</p>
+          </div>
+        }
+      />
+       */}
+      <hr />
       <OptionsContainer
         title={""}
         captions={[]}

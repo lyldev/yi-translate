@@ -1,6 +1,4 @@
 import log from "loglevel";
-import md5 from "js-md5";
-
 let translationHistory = [];
 
 const logDir = "common/translate";
@@ -27,16 +25,9 @@ const setHistory = (sourceWord, sourceLang, targetLang, formattedResult) => {
 
 const sendRequest = (word, sourceLang, targetLang) => {
   log.log(logDir, "sendRequest()");
-
-  const url = `https://translate.google.cn/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&dj=1&q=${encodeURIComponent(word)}`;
-
-  /**
-  var appid = '20191226000369899';
-  var key = 'QC7w1Pr1AktRFW54y15c';
-  var salt = (new Date).getTime();
-  var sign = md5(appid + word + salt +key);
-  const url = `https://fanyi-api.baidu.com/api/trans/vip/translate?q=${encodeURIComponent(word)}&from=${sourceLang}&to=${targetLang}&appid=${appid}&salt=${salt}&sign=${sign}`;
-   */
+  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&dj=1&q=${encodeURIComponent(
+    word
+  )}`;
   const xhr = new XMLHttpRequest();
   xhr.responseType = "json";
   xhr.open("GET", url);
