@@ -2,6 +2,7 @@ import browser from "webextension-polyfill";
 import browserInfo from "browser-info";
 import log from "loglevel";
 import { getSettings } from "src/settings/settings";
+import { standardLang2baiduLang } from "src/common/standardLang2baiduLang";
 
 const logDir = "background/menus";
 
@@ -13,9 +14,9 @@ export const showMenus = () => {
 };
 
 export const onMenusShownListener = (info, tab) => {
-  //テキストまたはリンクの選択時はページ翻訳を非表示にする
+  //选择文本或链接时隐藏页面翻译
   if (info.contexts.includes("selection") || info.contexts.includes("link")) {
-    //passwordにすることで事実上無効にする
+    //通过设置password有效禁用
     browser.contextMenus.update("translatePage", { contexts: ["password"] });
   } else {
     browser.contextMenus.update("translatePage", { contexts: ["all"] });
@@ -81,8 +82,10 @@ function translateText(tab) {
 function translatePage(info, tab) {
   const targetLang = getSettings("targetLang");
   const encodedPageUrl = encodeURIComponent(info.pageUrl);
-  const translationUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
-
+  // const translationUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
+  
+  var baiduTargetLang = standardLang2baiduLang(targetLang);
+  const translationUrl = `http://fanyi.baidu.com/transpage?query=${encodedPageUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`
   browser.tabs.create({
     url: translationUrl,
     active: true,
@@ -93,7 +96,10 @@ function translatePage(info, tab) {
 function translateLink(info, tab) {
   const targetLang = getSettings("targetLang");
   const encodedLinkUrl = encodeURIComponent(info.linkUrl);
-  const translationUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedLinkUrl}`;
+  // const translationUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedLinkUrl}`;
+  
+  var baiduTargetLang = standardLang2baiduLang(targetLang);
+  const translationUrl = `http://fanyi.baidu.com/transpage?query=${encodedLinkUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`
 
   browser.tabs.create({
     url: translationUrl,
