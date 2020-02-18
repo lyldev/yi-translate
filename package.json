@@ -43,15 +43,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeeXTZ/yi-translate.git"
+    "url": "git+https://github.com/lyldev/yi-translate.git"
   },
-  "author": "LeeXTZ",
+  "author": "lyldev",
   "license": "MPL-2.0",
   "description": "A powerful and friendly translation WebExtensions, inspired by simple-translate@sienori:https://github.com/sienori/simple-translate",
   "bugs": {
-    "url": "https://github.com/LeeXTZ/yi-translate/issues"
+    "url": "https://github.com/lyldev/yi-translate/issues"
   },
-  "homepage": "https://github.com/LeeXTZ/yi-translate#readme",
+  "homepage": "https://github.com/lyldev/yi-translate#readme",
   "main": ".src/manifest.json",
   "keywords": [
     "webextensions",
