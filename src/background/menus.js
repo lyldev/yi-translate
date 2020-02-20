@@ -99,7 +99,7 @@ function translateLink(info, tab) {
   // const translationUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedLinkUrl}`;
   
   var baiduTargetLang = standardLang2baiduLang(targetLang);
-  const translationUrl = `http://fanyi.baidu.com/transpage?query=${encodedLinkUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`
+  const translationUrl = `http://fanyi.baidu.com/transpage?query=${encodedLinkUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`;
 
   browser.tabs.create({
     url: translationUrl,
