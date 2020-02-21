@@ -1,15 +1,15 @@
 {
   "extName": {
-    "message": "Yi Translate"
+    "message": "易翻译"
   },
   "extDescription": {
-    "message": "快捷翻译网页上选中的文本。亦可在工具栏弹窗中输入文本进行翻译。"
+    "message": "快捷翻译选中的文本、链接和网页。亦可在工具栏弹窗中输入文本进行翻译。"
   },
   "donateWithPaypalLabel": {
     "message": "使用 PayPal 捐赠"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "捐赠"
   },
   "enableOnThisPage": {
     "message": "在此页面启用翻译"
@@ -24,7 +24,7 @@
     "message": "翻译此页面"
   },
   "openInGoogleLabel": {
-    "message": "在 Google 翻译中打开"
+    "message": "在谷歌翻译中打开"
   },
   "copyLabel": {
     "message": "复制"
@@ -45,7 +45,7 @@
     "message": "常规"
   },
   "targetLangCaptionLabel": {
-    "message": "选择默认的目标语言"
+    "message": "选择默认的目标语言。"
   },
   "webPageLabel": {
     "message": "网页"
@@ -69,7 +69,7 @@
     "message": "显示翻译按钮"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "显示翻译按钮以便在单击时打开面板。"
+    "message": "显示翻译按钮并在单击按钮时打开面板。"
   },
   "dontshowbuttonlabel": {
     "message": "不显示按钮或面板"
@@ -78,25 +78,25 @@
     "message": "不显示翻译按钮或翻译面板。"
   },
   "ifCheckLangLabel": {
-    "message": "不需要翻译时，不要显示按钮"
+    "message": "如果不需要翻译，则不显示按钮"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "侦测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
+    "message": "检测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "在文本输入框中禁用翻译"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "当用户在文本输入框中选择文本时，不显示翻译按钮或面板。"
   },
   "disableUrlListLabel": {
-    "message": "URL 白名单"
+    "message": "要禁用翻译的 URL 列表"
   },
   "disableUrlListCaptionLabel": {
-    "message": "如果页面的URL匹配该白名单，该页面的翻译将被禁用。你可以使用“*”通配符。"
+    "message": "如果页面的URL与该列表相匹配，该页面的翻译功能将被禁用。列表允许使用“*”通配符。"
   },
   "toolbarLabel": {
     "message": "工具栏弹出窗口"
@@ -105,10 +105,10 @@
     "message": "自动切换到第二语言"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "侦测文本输入所用的语言，如果它与默认的目标语言相同，则将它翻译为第二语言。"
+    "message": "检测文本输入所用的语言，如果它与默认的目标语言相同，则将它翻译为第二语言。"
   },
   "secondTargetLangLabel": {
-    "message": "第二语言:"
+    "message": "第二语言"
   },
   "secondTargetLangCaptionLabel": {
     "message": "选择第二种目标语言。"
@@ -120,16 +120,16 @@
     "message": "指定从字符输入到翻译开始的等待时间。（毫秒）"
   },
   "waitTime2CaptionLabel": {
-    "message": "如果您在短时间内翻译太多次，可能会暂时无法使用翻译功能。"
+    "message": "如果您在短时间内多次翻译，它可能会在一段时间内无法使用。"
   },
   "menuLabel": {
     "message": "右键菜单"
   },
   "ifShowMenuLabel": {
-    "message": "显示上下文菜单"
+    "message": "显示右键菜单"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "在网页或者标签页上右击时，将项目添加到显示的上下文菜单中。"
+    "message": "将翻译选项添加到网页或标签页的右键菜单中。"
   },
   "styleLabel": {
     "message": "样式"
@@ -219,7 +219,7 @@
     "message": "更新时显示选项页面"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Yi Translate 更新后显示选项页面从而快速了解更新内容。"
+    "message": "当易翻译完成更新后显示选项页面。从而使您快速了解更新内容。"
   },
   "isDebugModeLabel": {
     "message": "启用调试模式"
@@ -258,10 +258,10 @@
     "message": "必须包含 Command，Ctrl 或 Alt"
   },
   "invalidLetterMessage": {
-    "message": "不能使用这个字母"
+    "message": "不能使用此字母"
   },
   "invalidShortcutMessage": {
-    "message": "不能使用这个快捷键"
+    "message": "不能使用此快捷键"
   },
   "clear": {
     "message": "清除"
@@ -273,16 +273,16 @@
     "message": "信息"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "赞助者清单"
   },
   "licenseLabel": {
-    "message": "授权条款"
+    "message": "许可协议"
   },
   "donationLabel": {
-    "message": "请捐助"
+    "message": "请捐赠"
   },
   "donationCaptionLabel": {
-    "message": "感谢您使用Yi Translate！<br>您的支持会是我继续开发此款附加组件的动力。<br>如果您喜欢Yi Translate，希望您可以考虑捐助。"
+    "message": "感谢您使用易翻译！<br>您的支持会是我继续开发此插件的动力。<br>如果易翻译给您带来了帮助，希望您可以给予开发者力所能及的捐赠。"
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp 电子礼品卡"
@@ -294,16 +294,16 @@
     "message": "拓展页面"
   },
   "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
     "message": "https://addons.mozilla.org/zh-CN/firefox/addon/yi-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "错误：请检查您的网络连接状态"
+    "message": "错误：请检查您的网络连接状态。"
   },
   "unavailableError": {
-    "message": "错误：已达服务使用限制。请稍后再试。"
+    "message": "错误：已达到服务使用限制。请稍后再试。"
   },
   "unknownError": {
     "message": "错误：未知错误"

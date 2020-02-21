@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Yi Translate"
+    "message": "易翻譯"
   },
   "extDescription": {
     "message": "快速翻譯網頁上選取的文字。在工具列彈出式視窗中，您可以翻譯輸入的文字。"
@@ -87,10 +87,10 @@
     "message": "偵測選擇文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "在文本輸入框中禁用翻譯"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "當用戶在文本輸入框中選擇文本時，不顯示翻譯按鈕或面板。"
   },
   "disableUrlListLabel": {
     "message": "要停用翻譯的 URL 清單"
@@ -129,7 +129,7 @@
     "message": "於右鍵選單中顯示"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "將翻譯功能新增至右鍵選單。"
+    "message": "將翻譯選項添加至網頁或tab頁的右鍵選單。"
   },
   "styleLabel": {
     "message": "樣式"
