@@ -5,9 +5,20 @@ const getDefaultLangs = () => {
   const uiLang = browser.i18n.getUILanguage();
   const langOptions = generateLangOptions();
 
-  const shouldUseUiLang = langOptions.some(lang => lang.value == uiLang);
-  const targetLang = shouldUseUiLang ? uiLang : "en";
-  const secondTargetLang = targetLang === "en" ? "ja" : "en";
+  // const shouldUseUiLang = langOptions.some(lang => lang.value == uiLang);
+
+  var uiLangWithoutRegion = uiLang; //获取 uiLang 的无区域信息简写，如 "en" 而不是 "en-US"，从而与 langList 中的字符相匹配
+  const findLang = (lang) => {
+    const isSameLang = uiLangWithoutRegion.indexOf(lang.value) === 0;
+    uiLangWithoutRegion = isSameLang ? lang.value : uiLangWithoutRegion;
+    return isSameLang;
+  }
+  const shouldUseUiLang = langOptions.some(findLang);
+
+  // const targetLang = shouldUseUiLang ? uiLang : "en";
+  const targetLang = shouldUseUiLang ? uiLangWithoutRegion : "en";
+  // const secondTargetLang = targetLang === "en" ? "ja" : "en";
+  const secondTargetLang = targetLang === "en" ? "zh-CN" : "en";
 
   return { targetLang, secondTargetLang };
 };
