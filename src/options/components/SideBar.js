@@ -9,7 +9,7 @@ const isValidShortcuts = browserInfo().name == "Firefox" && browserInfo().versio
 const SideBar = props => (
   <div className="sideBar">
     <div className="titleContainer">
-      <img src="/icons/64.png" className="logo" />
+      <img src="/icons/128.png" className="logo" />
       <span className="logoTitle">Yi Translate</span>
     </div>
     <ul>
