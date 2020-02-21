@@ -3,7 +3,8 @@
  * Released under the MIT license.
  * see https://opensource.org/licenses/MIT */
 
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+// const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const TerserPlugin = require('terser-webpack-plugin');
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const {
   getHTMLPlugins,
@@ -15,7 +16,7 @@ const {
 } = require("./webpack.utils");
 const path = require("path");
 const config = require("./config.json");
-const CleanWebpackPlugin = require("clean-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const extVersion = require("./src/manifest-chrome.json").version;
@@ -105,9 +106,13 @@ module.exports = [
     ...generalConfig,
     output: getOutput("chrome", config.tempDirectory),
     entry: getEntry(config.chromePath),
+    optimization: {
+      minimize: true,
+      minimizer: [new TerserPlugin()],
+    },
     plugins: [
-      new CleanWebpackPlugin(["dist", "temp"]),
-      new UglifyJsPlugin(),
+      new CleanWebpackPlugin(),
+      // new UglifyJsPlugin(),
       new MiniCssExtractPlugin({
         filename: "[name]/[name].css"
       }),
@@ -120,9 +125,13 @@ module.exports = [
     ...generalConfig,
     entry: getEntry(config.firefoxPath),
     output: getOutput("firefox", config.tempDirectory),
+    optimization: {
+      minimize: true,
+      minimizer: [new TerserPlugin()],
+    },
     plugins: [
-      new CleanWebpackPlugin(["dist", "temp"]),
-      new UglifyJsPlugin(),
+      new CleanWebpackPlugin(),
+      // new UglifyJsPlugin(),
       new MiniCssExtractPlugin({
         filename: "[name]/[name].css"
       }),
