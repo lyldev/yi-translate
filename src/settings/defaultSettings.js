@@ -177,8 +177,8 @@ export default [
             captions: [],
             type: "number",
             min: 1,
-            placeholder: 22,
-            default: 22
+            placeholder: 25,
+            default: 25
           },
           {
             id: "buttonDirection",
@@ -242,8 +242,8 @@ export default [
             captions: [],
             type: "number",
             min: 1,
-            placeholder: 300,
-            default: 300
+            placeholder: 320,
+            default: 320
           },
           {
             id: "height",
@@ -251,8 +251,8 @@ export default [
             captions: [],
             type: "number",
             min: 1,
-            placeholder: 200,
-            default: 200
+            placeholder: 180,
+            default: 180
           },
           {
             id: "fontSize",
@@ -260,8 +260,8 @@ export default [
             captions: [],
             type: "number",
             min: 1,
-            placeholder: 13,
-            default: 13
+            placeholder: 14,
+            default: 14
           },
           {
             id: "panelReferencePoint",
