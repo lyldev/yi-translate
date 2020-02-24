@@ -31,6 +31,13 @@ export default [
     category: "generalLabel",
     elements: [
       {
+        id: "isInChinaMainland",
+        title: "isInChinaMainlandLabel",
+        captions: ["isInChinaMainlandCaptionLabel", "isInChinaMainlandCaption2Label"],
+        type: "checkbox",
+        default: true
+      },
+      {
         id: "targetLang",
         title: "targetLangLabel",
         captions: ["targetLangCaptionLabel"],

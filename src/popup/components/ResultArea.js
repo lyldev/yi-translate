@@ -5,6 +5,7 @@ import { getSettings } from "src/settings/settings";
 import openUrl from "src/common/openUrl";
 import "../styles/ResultArea.scss";
 import MediaButtons from "./MediaButtons";
+import { generateTranslateTextUrl } from "src/common/generateTranslateUrl";
 
 const splitLine = text => {
   const regex = /(\n)/g;
@@ -19,7 +20,8 @@ export default props => {
   const handleLinkClick = () => {
     const { inputText, targetLang } = props;
     const encodedText = encodeURIComponent(inputText);
-    const translateUrl = `https://translate.google.cn/?sl=auto&tl=${targetLang}&text=${encodedText}`;
+    // const translateUrl = `https://translate.google.cn/?sl=auto&tl=${targetLang}&text=${encodedText}`;
+    const translateUrl = generateTranslateTextUrl(targetLang, encodedText);
     openUrl(translateUrl);
   };
 

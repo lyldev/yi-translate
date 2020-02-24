@@ -36,7 +36,6 @@ export const initSettings = async () => {
 };
 
 export const setSettings = async (id, value) => {
-  log.info(logDir, "setSettings()", id, value);
   currentSettings[id] = value;
   await browser.storage.local.set({ Settings: currentSettings });
 };

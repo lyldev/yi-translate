@@ -2,7 +2,8 @@ import browser from "webextension-polyfill";
 import browserInfo from "browser-info";
 import log from "loglevel";
 import { getSettings } from "src/settings/settings";
-import { standardLang2baiduLang } from "src/common/standardLang2baiduLang";
+import { generateTranslateLinkUrl } from "src/common/generateTranslateUrl"
+
 
 const logDir = "background/menus";
 
@@ -84,8 +85,10 @@ function translatePage(info, tab) {
   const encodedPageUrl = encodeURIComponent(info.pageUrl);
   // const translationUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
   
-  var baiduTargetLang = standardLang2baiduLang(targetLang);
-  const translationUrl = `http://fanyi.baidu.com/transpage?query=${encodedPageUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`
+  // var baiduTargetLang = standardLang2baiduLang(targetLang);
+  // const translationUrl = `http://fanyi.baidu.com/transpage?query=${encodedPageUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`
+  
+  const translationUrl = generateTranslateLinkUrl(targetLang, encodedPageUrl);
   browser.tabs.create({
     url: translationUrl,
     active: true,
@@ -98,9 +101,10 @@ function translateLink(info, tab) {
   const encodedLinkUrl = encodeURIComponent(info.linkUrl);
   // const translationUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedLinkUrl}`;
   
-  var baiduTargetLang = standardLang2baiduLang(targetLang);
-  const translationUrl = `http://fanyi.baidu.com/transpage?query=${encodedLinkUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`;
-
+  // var baiduTargetLang = standardLang2baiduLang(targetLang);
+  // const translationUrl = `http://fanyi.baidu.com/transpage?query=${encodedLinkUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`;
+  
+  const translationUrl = generateTranslateLinkUrl(targetLang, encodedLinkUrl);
   browser.tabs.create({
     url: translationUrl,
     active: true,

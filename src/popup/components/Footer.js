@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import browser from "webextension-polyfill";
 import generateLangOptions from "src/common/generateLangOptions";
 import openUrl from "src/common/openUrl";
-import { standardLang2baiduLang } from "src/common/standardLang2baiduLang";
+// import { standardLang2baiduLang } from "src/common/standardLang2baiduLang";
 import "../styles/Footer.scss";
+import { generateTranslateLinkUrl } from "src/common/generateTranslateUrl";
 
 export default class Footer extends Component {
   constructor(props) {
@@ -15,8 +16,9 @@ export default class Footer extends Component {
     const { tabUrl, targetLang } = this.props;
     const encodedUrl = encodeURIComponent(tabUrl);
     // const translateUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedUrl}`;
-    var baiduTargetLang = standardLang2baiduLang(targetLang);
-    const translateUrl = `http://fanyi.baidu.com/transpage?query=${encodedUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`;
+    // var baiduTargetLang = standardLang2baiduLang(targetLang);
+    // const translateUrl = `http://fanyi.baidu.com/transpage?query=${encodedUrl}&source=url&from=auto&to=${baiduTargetLang}&render=1`;
+    const translateUrl = generateTranslateLinkUrl(targetLang, encodedUrl);
     openUrl(translateUrl);
   };
 
