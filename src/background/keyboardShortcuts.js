@@ -4,6 +4,7 @@ import log from "loglevel";
 import { getSettings, setSettings } from "src/settings/settings";
 import getShortcut from "src/common/getShortcut";
 import manifest from "src/manifest-chrome.json";
+import { generateTranslateLinkUrl } from "src/common/generateTranslateUrl"
 
 const logDir = "background/keyboardShortcuts";
 
@@ -54,7 +55,8 @@ const translatePage = async () => {
 
   const targetLang = getSettings("targetLang");
   const encodedPageUrl = encodeURIComponent(tabUrl);
-  const translationUrl = `https://translate.google.cn/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
+  // const translationUrl = `https://translate.google.nima/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
+  const translationUrl = generateTranslateLinkUrl(targetLang, encodedPageUrl);
 
   browser.tabs.create({
     url: translationUrl,
