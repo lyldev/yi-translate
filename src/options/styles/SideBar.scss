@@ -8,6 +8,7 @@
   flex-shrink: 0;
 
   .titleContainer {
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 10px 15px;
@@ -20,9 +21,9 @@
     }
     .logoTitle {
       text-align: left;
-      font-size: 14px;
-      font-weight: 300;
-      color: var(--sub-text);
+      font-size: 20px;
+      font-weight: 500;
+      color: var(--main-text);
       margin: auto;
     }
   }
@@ -38,15 +39,19 @@
       :hover {
         text-decoration-line: underline;
         color: var(--highlight);
+        font-weight: 400;
       }
 
       a {
         color: var(--sub-text);
         text-decoration-line: none;
+        font-weight: 400;
       }
 
       &.selected a {
         color: var(--highlight);
+        text-decoration-line: none;
+        font-weight: 700;
       }
     }
   }
