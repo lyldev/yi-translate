@@ -55,7 +55,6 @@ const translatePage = async () => {
 
   const targetLang = getSettings("targetLang");
   const encodedPageUrl = encodeURIComponent(tabUrl);
-  // const translationUrl = `https://translate.google.nima/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
   const translationUrl = generateTranslateLinkUrl(targetLang, encodedPageUrl);
 
   browser.tabs.create({
