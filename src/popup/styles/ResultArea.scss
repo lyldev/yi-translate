@@ -28,7 +28,8 @@
     a {
       font-style: normal;
       text-decoration: none;
-      color: var(--highlight);
+      // color: var(--highlight);
+      color: var(--onenote-light);
       cursor: pointer;
       &:hover {
         text-decoration: underline;

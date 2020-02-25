@@ -1,5 +1,5 @@
 #inputArea {
-  margin: 10px;
+  margin: 5px;
   textarea {
     font: inherit;
     resize: none;
@@ -14,13 +14,14 @@
 
     margin: 0;
     padding: 10px;
-    border: solid 1px var(--button);
-    border-radius: 2px;
+    border: solid 1.5px var(--button);
+    border-radius: 6px;
     transition: border-color 100ms ease-out;
   }
 
   textarea:hover,
   textarea:focus {
-    border-color: var(--highlight);
+    // border-color: var(--highlight);
+    border-color: var(--onenote-light);
   }
 }

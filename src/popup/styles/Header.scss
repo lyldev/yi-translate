@@ -1,5 +1,8 @@
 #header {
+  margin: 5px;
   padding: 10px;
+  border: solid 1.5px var(--button);
+  border-radius: 6px;
   background-color: var(--line);
   display: flex;
   flex-direction: row;
@@ -12,7 +15,8 @@
   .title {
     font-size: 15px;
     font-weight: 400;
-    color: #666;
+    // color: #666;
+    color: var(--onenote-normal);
     cursor: default;
     flex-shrink: 0;
   }
@@ -54,11 +58,11 @@
 
         &.react-toggle--checked {
           .react-toggle-track {
-            background-color: var(--highlight);
+            background-color: var(--onenote-light);
           }
           .react-toggle-thumb {
             left: 34px - $offset-width;
-            border-color: var(--highlight);
+            border-color: var(--onenote-light);
           }
         }
         &.react-toggle--disabled {
@@ -81,7 +85,7 @@
       align-items: center;
       margin: 0px 10px;
       &:hover svg {
-        fill: var(--confirm);
+        fill: var(--onenote-light);
       }
     }
 
@@ -89,7 +93,8 @@
       display: flex;
       align-items: center;
       &:hover svg {
-        fill: var(--highlight);
+        // fill: var(--highlight);
+        fill: var(--onenote-light);
         transform: rotate(90deg);
       }
     }

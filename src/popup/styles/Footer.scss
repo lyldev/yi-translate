@@ -10,7 +10,8 @@
     a {
       font-style: normal;
       text-decoration: none;
-      color: var(--highlight);
+      // color: var(--highlight);
+      color: var(--onenote-normal);
       cursor: pointer;
       &:hover {
         text-decoration: underline;
@@ -38,8 +39,10 @@
       transition: border-color 100ms ease-out;
     }
     &:hover::before {
-      border-bottom: 2px solid var(--highlight);
-      border-right: 2px solid var(--highlight);
+      // border-bottom: 2px solid var(--highlight);
+      border-bottom: 2px solid var(--onenote-light);
+      // border-right: 2px solid var(--highlight);
+      border-right: 2px solid var(--onenote-light);
     }
 
     select {
@@ -54,7 +57,7 @@
       width: 100%;
       transition: border-color 100ms ease-out;
       &:hover {
-        border-color: var(--highlight);
+        border-color: var(--onenote-light);
       }
     }
   }

@@ -3,7 +3,7 @@ body {
   font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial", "Helvetica",
     sans-serif;
   font-size: 13px;
-  width: 348px;
+  width: 350px;
   overflow: hidden;
   background-color: var(--main-bg);
 
@@ -35,4 +35,7 @@ body {
   --warn: #ff8f00;
   --success: #058b00;
   --info: #0a84ff;
+  --onenote-dark: #56197C;
+  --onenote-normal: #802EB3;
+  --onenote-light: #8F4DB8;
 }
