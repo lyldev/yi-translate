@@ -1,6 +1,8 @@
+import { getSettings } from "src/settings/settings"
+import { standardLang2baiduLang } from "src/common/standardLang2baiduLang";
 import log from "loglevel";
-let translationHistory = [];
 
+let translationHistory = [];
 const logDir = "common/translate";
 
 const getHistory = (sourceWord, sourceLang, targetLang) => {
@@ -76,7 +78,14 @@ const formatResult = result => {
   return resultData;
 };
 
-export default async (sourceWord, sourceLang = "auto", targetLang) => {
+/**
+ * 调用 google api 翻译文本并返回翻译结果
+ * surprisingly, api 没有被墙
+ * @param {待翻译文本} sourceWord 
+ * @param {源语言} sourceLang 
+ * @param {目标语言} targetLang 
+ */
+async function translate(sourceWord, sourceLang = "auto", targetLang) {
   log.log(logDir, "tranlate()", sourceWord, targetLang);
   sourceWord = sourceWord.trim();
   if (sourceWord === "")
@@ -96,3 +105,34 @@ export default async (sourceWord, sourceLang = "auto", targetLang) => {
   setHistory(sourceWord, sourceLang, targetLang, formattedResult);
   return formattedResult;
 };
+
+/**
+ * 生成翻译文本的 url
+ * 用于 popup 中的 open in google
+ * 根据用户设置返回 [ translate.google.com ] 或 [ translate.google.cn ]
+ * @param {目标语言} targetLang 
+ * @param {编码后的文本} encodedText 
+ */
+function generateTranslateTextUrl(targetLang, encodedText) {
+  const googleComTranslateTextUrl = `https://translate.google.com/?sl=auto&tl=${targetLang}&text=${encodedText}`;
+  const googleCnTranslateTextUrl = `https://translate.google.cn/?sl=auto&tl=${targetLang}&text=${encodedText}`;
+  const isInChinaMainland = getSettings("isInChinaMainland");
+  return isInChinaMainland ? googleCnTranslateTextUrl : googleComTranslateTextUrl;
+}
+
+/**
+ * 生成翻译整个网页的 url
+ * 用于 translate link 和 translate page
+ * 根据用户设置返回 [ translate.google.com ] 或 [ fanyi.baidu.com ]
+ * @param {目标语言} targetLang 
+ * @param {编码后的网页链接} encodedLinkUrl 
+ */
+function generateTranslateLinkUrl(targetLang, encodedLinkUrl) {
+  const googleComTranslateLinkUrl = `https://translate.google.com/translate?hl=${targetLang}&sl=auto&u=${encodedLinkUrl}`;
+  var baiduTargetLang = standardLang2baiduLang(targetLang);
+  const baiduTranslateLinkUrl = `http://fanyi.baidu.com/transpage?from=auto&to=${baiduTargetLang}&query=${encodedLinkUrl}&source=url&render=1`;
+  const isInChinaMainland = getSettings("isInChinaMainland");
+  return isInChinaMainland ? baiduTranslateLinkUrl : googleComTranslateLinkUrl;
+}
+
+export { translate, generateTranslateTextUrl, generateTranslateLinkUrl };

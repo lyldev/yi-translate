@@ -5,7 +5,7 @@ import { getSettings } from "src/settings/settings";
 import openUrl from "src/common/openUrl";
 import "../styles/ResultArea.scss";
 import MediaButtons from "./MediaButtons";
-import { generateTranslateTextUrl } from "src/common/generateTranslateUrl";
+import { generateTranslateTextUrl } from "src/common/translateService";
 
 const splitLine = text => {
   const regex = /(\n)/g;
@@ -17,6 +17,7 @@ export default props => {
   const isError = statusText !== "OK";
   const shouldShowCandidate = getSettings("ifShowCandidate");
 
+  // 用于 panel 中的 openInGoogle 链接
   const handleLinkClick = () => {
     const { inputText, targetLang } = props;
     const encodedText = encodeURIComponent(inputText);

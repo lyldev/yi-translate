@@ -4,7 +4,7 @@ import log from "loglevel";
 import { getSettings, setSettings } from "src/settings/settings";
 import getShortcut from "src/common/getShortcut";
 import manifest from "src/manifest-chrome.json";
-import { generateTranslateLinkUrl } from "src/common/generateTranslateUrl"
+import { generateTranslateLinkUrl } from "src/common/translateService"
 
 const logDir = "background/keyboardShortcuts";
 

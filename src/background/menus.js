@@ -2,7 +2,7 @@ import browser from "webextension-polyfill";
 import browserInfo from "browser-info";
 import log from "loglevel";
 import { getSettings } from "src/settings/settings";
-import { generateTranslateLinkUrl } from "src/common/generateTranslateUrl"
+import { generateTranslateLinkUrl } from "src/common/translateService"
 
 
 const logDir = "background/menus";

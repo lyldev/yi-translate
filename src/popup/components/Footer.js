@@ -4,7 +4,7 @@ import generateLangOptions from "src/common/generateLangOptions";
 import openUrl from "src/common/openUrl";
 // import { standardLang2baiduLang } from "src/common/standardLang2baiduLang";
 import "../styles/Footer.scss";
-import { generateTranslateLinkUrl } from "src/common/generateTranslateUrl";
+import { generateTranslateLinkUrl } from "src/common/translateService";
 
 export default class Footer extends Component {
   constructor(props) {

@@ -3,7 +3,7 @@ import browser from "webextension-polyfill";
 import log from "loglevel";
 import { initSettings, getSettings } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
-import translate from "src/common/translate";
+import { translate } from "src/common/translateService";
 import Header from "./Header";
 import InputArea from "./InputArea";
 import ResultArea from "./ResultArea";

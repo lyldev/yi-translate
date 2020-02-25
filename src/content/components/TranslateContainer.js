@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import browser from "webextension-polyfill";
-import translate from "src/common/translate";
+import { translate } from "src/common/translateService";
 import { getSettings } from "src/settings/settings";
 import TranslateButton from "./TranslateButton";
 import TranslatePanel from "./TranslatePanel";
@@ -13,12 +13,12 @@ const translateText = async (text, targetLang = getSettings("targetLang")) => {
 
 const matchesTargetLang = async selectedText => {
   const targetLang = getSettings("targetLang");
-  //detectLanguageで判定
+  //detectLanguage
   const langInfo = await browser.i18n.detectLanguage(selectedText);
   const matchsLangsByDetect = langInfo.isReliable && langInfo.languages[0].language === targetLang;
   if (matchsLangsByDetect) return true;
 
-  //先頭100字を翻訳にかけて判定
+  //翻以前100个字进行判定
   const partSelectedText = selectedText.substring(0, 100);
   const result = await translateText(partSelectedText);
   const isError = result.statusText !== "OK";
