@@ -11,10 +11,9 @@
 
 ---
 
-## Where to Get (not yet available on Chrome)
-[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" align="left" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/yi-translate/)
+## Where to Get
 
-[<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="for Chrome">](https://chrome.google.com/webstore/detail/simple-translate/not-available-now)
+[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" align="center" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/yi-translate/)
 
 ---
 
@@ -31,9 +30,9 @@
 3. Choose `yi-translate/dev/firefox/manifest.json`
 
 
-### Load the extension in Chrome
+<!-- ### Load the extension in Chrome
 
 1. Open Chrome browser and navigate to `chrome://extensions`
 2. Select "Developer Mode" and then click "Load unpacked extension..."
-3. Choose `yi-translate/dev/chrome`
+3. Choose `yi-translate/dev/chrome` -->
 
