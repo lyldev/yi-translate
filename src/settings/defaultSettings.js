@@ -181,7 +181,7 @@ export default [
             title: "displayDirectionLabel",
             captions: [],
             type: "select",
-            default: "bottomRight",
+            default: "bottom",
             options: [
               {
                 name: "topLabel",
@@ -238,8 +238,8 @@ export default [
             captions: [],
             type: "number",
             min: 1,
-            placeholder: 320,
-            default: 320
+            placeholder: 300,
+            default: 300
           },
           {
             id: "height",
@@ -247,8 +247,8 @@ export default [
             captions: [],
             type: "number",
             min: 1,
-            placeholder: 180,
-            default: 180
+            placeholder: 150,
+            default: 150
           },
           {
             id: "fontSize",
@@ -256,8 +256,8 @@ export default [
             captions: [],
             type: "number",
             min: 1,
-            placeholder: 14,
-            default: 14
+            placeholder: 12,
+            default: 12
           },
           {
             id: "panelReferencePoint",
