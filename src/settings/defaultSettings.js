@@ -31,7 +31,7 @@ export default [
         title: "isInChinaMainlandLabel",
         captions: ["isInChinaMainlandCaptionLabel", "isInChinaMainlandCaption2Label"],
         type: "checkbox",
-        default: true
+        default: false
       },
       {
         id: "targetLang",
