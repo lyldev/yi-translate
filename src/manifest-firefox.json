@@ -37,9 +37,7 @@
       "128": "icons/128.png",
       "64": "icons/64.png",
       "48": "icons/48.png",
-      "38": "icons/38.png",
       "32": "icons/32.png",
-      "19": "icons/19.png",
       "16": "icons/16.png"
     },
     "default_popup": "popup/index.html"
