@@ -4,8 +4,9 @@
     position: fixed;
     overflow: hidden;
     background-color: var(--yi-translate-main-bg);
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-    border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(119, 25, 170, 0.56);
+    border: solid 2px var(--onenote-normal);
+    border-radius: 4px;
     z-index: 2147483646;
 
     transition-property: opacity, visibility;
