@@ -1,6 +1,6 @@
 # BACKERS
 
-Thank you to the awesome backers who supported Yi Translate!
+Thanks to you awesome backers who supported Yi Translate!
 
 <a href=https://www.patreon.com/lyldev >
 <img src=https://c5.patreon.com/external/logo/become_a_patron_button.png alt="Became a patreon">
