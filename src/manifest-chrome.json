@@ -46,7 +46,7 @@
     }
   ],
 
-  "web_accessible_resources": ["icons/512.png"],
+  "web_accessible_resources": ["icons/64.png"],
 
   "commands": {
     "_execute_browser_action": {
