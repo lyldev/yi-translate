@@ -6,33 +6,52 @@
     You can select Text, Links and even Webpages in your browser, then you'll get its translation conveniently.
 #### 2. Input Translation:
     You can input text in the extension's popup, and get translation immediately.
-#### 3. Multi-languages support:
+#### 3. Keyboard shortcuts support:
+    You can set and use keyboard shortcuts to translate.
+#### 4. Multi-languages support:
     You can configure different source language and target language manually.
+#### 5. Multi-browser support:
+    Mozilla Firefox and Microsoft Edge support till now. Google Chrome incoming.
 
 ---
 
-## Where to Get
+## Contribute
 
-[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" align="center" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/yi-translate/)
+### 1. open issues to report bugs or new needed features
+
+### 2. clone this repo to fix bugs or add new features, then pull request
+
+    (1). Clone the repository 
+    (2). Run `npm install`
+    (3). Run `npm run watch-dev`
+    (4). Load generated files in "src/dev/" to browsers
 
 ---
 
-## How to Develop
+## Donate
 
-1. Clone the repository 
-2. Run `npm install`
-3. Run `npm run watch-dev`
+The developer accept donations from these platforms:
 
-### Load the extension in Firefox
+donate with Patreon : 
+[<img
+    src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Donate with patreon"
+    height="38px" width="162px" align="center"
+/>](https://www.patreon.com/lyldev)
 
-1. Open Firefox browser and navigate to `about:debugging`
-2. Click "Load Temporary Add-on"
-3. Choose `yi-translate/dev/firefox/manifest.json`
+donate with Buy Me A Coffee : 
+[<img
+    src="https://cdn.buymeacoffee.com/buttons/arial-violet.png" alt="Donate with buymeacoffee"
+    height="38px" width="162px" align="center"
+/>](https://www.buymeacoffee.com/lyldev)
 
+使用 冲呀 进行捐赠 : (https://www.chongya.com/@lyldev)
 
-<!-- ### Load the extension in Chrome
+使用 爱发电 进行捐赠 : (https://afdian.net/@lyldev)
 
-1. Open Chrome browser and navigate to `chrome://extensions`
-2. Select "Developer Mode" and then click "Load unpacked extension..."
-3. Choose `yi-translate/dev/chrome` -->
+---
 
+## Get Addon
+
+[<img src="other\browser-icons\firefox-100.png" width="40" height="40" align="center" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/yi-translate/)    for Mozilla Firefox: https://addons.mozilla.org/firefox/addon/yi-translate/
+
+[<img src="other\browser-icons\edge-100.png" width="40" height="40" align="center" alt="for Firefox">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Microsoft Edge: https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm
