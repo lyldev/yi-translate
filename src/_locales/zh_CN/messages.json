@@ -1,332 +1,332 @@
 {
-  "extName": {
-    "message": "易翻译"
-  },
-  "extDescription": {
-    "message": "快捷翻译选中的文本、链接和网页。亦可在工具栏弹窗中输入文本进行翻译。"
-  },
-  "donateWithPaypalLabel": {
-    "message": "使用 PayPal 捐赠"
-  },
-  "donateLabel": {
-    "message": "捐赠"
-  },
-  "enableOnThisPage": {
-    "message": "在此页面启用翻译"
-  },
-  "disableOnThisPage": {
-    "message": "在此页面禁用翻译"
-  },
-  "initialTextArea": {
-    "message": "输入文字"
-  },
-  "showLink": {
-    "message": "翻译此页面"
-  },
-  "openInGoogleLabel": {
-    "message": "在谷歌翻译中打开"
-  },
-  "copyLabel": {
-    "message": "复制"
-  },
-  "copiedLabel": {
-    "message": "已复制。"
-  },
-  "targetLangLabel": {
-    "message": "目标语言"
-  },
-  "isInChinaMainlandLabel": {
-    "message": "是否在中国大陆"
-  },
-  "isInChinaMainlandCaptionLabel": {
-    "message": "如果您在中国大陆，无法访问 [translate.google.com]，请选中此选项；"
-  },
-  "isInChinaMainlandCaption2Label": {
-    "message": "如果您可以访问 [translate.google.com]，您可以取消它。"
-  },
-  "langList": {
-    "message": "af:南非荷兰语, sq:阿尔巴尼亚语, am:阿姆哈拉语, ar:阿拉伯语, hy:亚美尼亚语, az:阿塞拜疆语, eu:巴斯克语, be:白俄罗斯语, bn:孟加拉语, bs:波斯尼亚语, bg:保加利亚语, ca:加泰罗尼亚语, ceb:宿雾语, ny:齐切瓦语, zh-CN:中文（简体）, zh-TW:中文（繁体）, co:科西嘉语, hr:克罗地亚语, cs:捷克语, da:丹麦语, nl:荷兰语, en:英语, eo:世界语, et:爱沙尼亚语, fi:芬兰语, fr:法语, fy:弗里斯兰语, gl:加利西亚语, ka:格鲁吉亚语, de:德语, el:希腊语, gu:古吉拉特语, ht:海地语, ha:豪萨语, haw:夏威夷语, he:希伯来语, hi:印地语, hu:匈牙利语, is:冰岛语, ig:伊博语, id:印度尼西亚语, ga:爱尔兰语, it:意大利语, ja:日语, jv:爪哇语, kn:埃纳德语, kk:哈萨克语, km:高棉语, ky:吉尔吉斯语, ko:韩语, ku:库尔德语, lo:老挝语, la:拉丁语, lv:拉脱维亚语, lt:立陶宛语, lb:卢森堡语, mk:马其顿语, mg:马尔加什语, ms:马来语, ml:马拉雅拉姆, mt:马耳他语, mi:毛利语, mr:马拉地语, mn:蒙古语, hmn:苗语, my:缅甸语, ne:尼泊尔语, no:挪威语, fa:波斯语, pl:波兰语, pt:葡萄牙语, pa:旁遮普语, ps:普什图语, ro:罗马尼亚语, ru:俄语, sm:萨摩亚语, gd:苏格兰盖尔语, sr:塞尔维亚语, sn:修纳语, sd:信德语, si:僧伽罗语, sk:斯洛伐克语, sl:斯洛文尼亚语, so:索马里语, sx:索托语, es:西班牙语, su:巽他语, sw:斯瓦希里语, sv:瑞典语, tl:塔加路语, tg:塔吉克语, ta:泰米尔语, te:泰卢固语, th:泰语, tr:土耳其语, uk:乌克兰语, ur:乌尔都语, uz:乌兹别克语, vi:越南语, cy:威尔士语, xh:雪撒语, yi:第绪语, yo:约鲁巴语, zu:祖鲁语"
-  },
-  "settingsLabel": {
-    "message": "设置"
-  },
-  "generalLabel": {
-    "message": "常规"
-  },
-  "targetLangCaptionLabel": {
-    "message": "选择默认的目标语言。"
-  },
-  "webPageLabel": {
-    "message": "网页"
-  },
-  "ifShowCandidateLabel": {
-    "message": "显示候选译文"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "翻译单词时显示多项候选翻译。"
-  },
-  "whenSelectTextLabel": {
-    "message": "选中文本时的行为"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "显示翻译面板"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "直接显示翻译面板而不显示按钮。"
-  },
-  "ifShowButtonLabel": {
-    "message": "显示翻译按钮"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "显示翻译按钮并在单击按钮时打开面板。"
-  },
-  "dontshowbuttonlabel": {
-    "message": "不显示按钮或面板"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "不显示翻译按钮或翻译面板。"
-  },
-  "ifCheckLangLabel": {
-    "message": "如果不需要翻译，则不显示按钮"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "检测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "在文本输入框中禁用翻译"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "当用户在文本输入框中选择文本时，不显示翻译按钮或面板。"
-  },
-  "disableUrlListLabel": {
-    "message": "要禁用翻译的 URL 列表"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "如果页面的URL与该列表相匹配，该页面的翻译功能将被禁用。列表允许使用“*”通配符。"
-  },
-  "toolbarLabel": {
-    "message": "工具栏弹出窗口"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "自动切换到第二语言"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "检测文本输入所用的语言，如果它与默认的目标语言相同，则将它翻译为第二语言。"
-  },
-  "secondTargetLangLabel": {
-    "message": "第二语言"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "选择第二种目标语言。"
-  },
-  "waitTimeLabel": {
-    "message": "翻译等待时间"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "指定从字符输入到翻译开始的等待时间。（毫秒）"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "如果您在短时间内多次翻译，它可能会在一段时间内无法使用。"
-  },
-  "menuLabel": {
-    "message": "右键菜单"
-  },
-  "ifShowMenuLabel": {
-    "message": "显示右键菜单"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "将翻译选项添加到网页或标签页的右键菜单中。"
-  },
-  "styleLabel": {
-    "message": "样式"
-  },
-  "buttonStyleLabel": {
-    "message": "翻译按钮"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "指定在网页上显示的翻译按钮的样式。"
-  },
-  "buttonSizeLabel": {
-    "message": "大小"
-  },
-  "buttonPositionLabel": {
-    "message": "显示位置"
-  },
-  "topRightLabel": {
-    "message": "右上角"
-  },
-  "bottomRightLabel": {
-    "message": "右下角"
-  },
-  "topLeftLabel": {
-    "message": "左上角"
-  },
-  "bottomLeftLabel": {
-    "message": "左下角"
-  },
-  "topLabel": {
-    "message": "顶部"
-  },
-  "bottomLabel": {
-    "message": "底部"
-  },
-  "leftLabel": {
-    "message": "左侧"
-  },
-  "rightLabel": {
-    "message": "右侧"
-  },
-  "positionOffsetLabel": {
-    "message": "显示位置 - 偏移"
-  },
-  "panelStyleLabel": {
-    "message": "翻译面板"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "指定在网页上显示的翻译面板的样式。"
-  },
-  "widthLabel": {
-    "message": "宽度"
-  },
-  "heightLabel": {
-    "message": "高度"
-  },
-  "fontSizeLabel": {
-    "message": "字体大小"
-  },
-  "referencePointLabel": {
-    "message": "显示位置 - 参考点"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "所选文本的底部"
-  },
-  "topSelectedTextLabel": {
-    "message": "所选文本的顶部"
-  },
-  "clickedPointLabel": {
-    "message": "点击的位置"
-  },
-  "displayDirectionLabel": {
-    "message": "显示位置 - 方向"
-  },
-  "resultFontColorLabel": {
-    "message": "翻译结果的字体颜色"
-  },
-  "candidateFontColorLabel": {
-    "message": "翻译候选的字体颜色"
-  },
-  "bgColorLabel": {
-    "message": "背景色"
-  },
-  "otherLabel": {
-    "message": "其他"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "更新时显示选项页面"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "当易翻译完成更新后显示选项页面。从而使您快速了解更新内容。"
-  },
-  "isDebugModeLabel": {
-    "message": "启用调试模式"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "启用调试模式后, 日志将输出到调试器。"
-  },
-  "resetSettingsLabel": {
-    "message": "重置设置"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "恢复所有设置为默认值。"
-  },
-  "resetSettingsButtonLabel": {
-    "message": "重置"
-  },
-  "shortcutsLabel": {
-    "message": "快捷键"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "键盘快捷键"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "设置键盘快捷键。"
-  },
-  "typeShortcutMessage": {
-    "message": "输入快捷键"
-  },
-  "typeLetterMessage": {
-    "message": "输入一个字母"
-  },
-  "includeModifierKeysMessage": {
-    "message": "必须包含 Ctrl 或 Alt"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "必须包含 Command，Ctrl 或 Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "不能使用此字母"
-  },
-  "invalidShortcutMessage": {
-    "message": "不能使用此快捷键"
-  },
-  "clear": {
-    "message": "清除"
-  },
-  "reset": {
-    "message": "重置"
-  },
-  "informationLabel": {
-    "message": "信息"
-  },
-  "backersLabel": {
-    "message": "赞助者清单"
-  },
-  "licenseLabel": {
-    "message": "许可协议"
-  },
-  "donationLabel": {
-    "message": "请捐赠"
-  },
-  "donationCaptionLabel": {
-    "message": "感谢您使用易翻译！<br>您的支持会是我继续开发此插件的动力。<br>如果易翻译给您带来了帮助，希望您可以给予开发者力所能及的捐赠。"
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp 电子礼品卡"
-  },
-  "addonPageLabel": {
-    "message": "附加组件页面"
-  },
-  "extensionPageLabel": {
-    "message": "拓展页面"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/zh-CN/firefox/addon/yi-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "错误：请检查您的网络连接状态。"
-  },
-  "unavailableError": {
-    "message": "错误：已达到服务使用限制。请稍后再试。"
-  },
-  "unknownError": {
-    "message": "错误：未知错误"
-  },
-  "translatePageMenu": {
-    "message": "翻译此页面"
-  },
-  "translateTextMenu": {
-    "message": "翻译选中的文本"
-  },
-  "translateLinkMenu": {
-    "message": "翻译选中的链接"
-  },
-  "openPopupDescription": {
-    "message": "打开工具栏弹出窗口"
-  }
+    "extName": {
+        "message": "易翻译"
+    },
+    "extDescription": {
+        "message": "一个易于使用的翻译附件。轻松翻译所选文字。轻松翻译整个网页。轻松翻译输入文字"
+    },
+    "donateWithPaypalLabel": {
+        "message": "使用 PayPal 捐赠"
+    },
+    "donateLabel": {
+        "message": "捐赠"
+    },
+    "enableOnThisPage": {
+        "message": "在此页面启用翻译"
+    },
+    "disableOnThisPage": {
+        "message": "在此页面禁用翻译"
+    },
+    "initialTextArea": {
+        "message": "输入文字"
+    },
+    "showLink": {
+        "message": "翻译此页面"
+    },
+    "openInGoogleLabel": {
+        "message": "在谷歌翻译中打开"
+    },
+    "copyLabel": {
+        "message": "复制"
+    },
+    "copiedLabel": {
+        "message": "已复制。"
+    },
+    "targetLangLabel": {
+        "message": "目标语言"
+    },
+    "isInChinaMainlandLabel": {
+        "message": "是否在中国大陆"
+    },
+    "isInChinaMainlandCaptionLabel": {
+        "message": "如果您在中国大陆，无法访问 [ translate.google.com ]，请选中此选项；"
+    },
+    "isInChinaMainlandCaption2Label": {
+        "message": "如果您可以访问 [ translate.google.com ]，您最好取消此选项。"
+    },
+    "langList": {
+        "message": "af:南非荷兰语, sq:阿尔巴尼亚语, am:阿姆哈拉语, ar:阿拉伯语, hy:亚美尼亚语, az:阿塞拜疆语, eu:巴斯克语, be:白俄罗斯语, bn:孟加拉语, bs:波斯尼亚语, bg:保加利亚语, ca:加泰罗尼亚语, ceb:宿雾语, ny:齐切瓦语, zh-CN:中文（简体）, zh-TW:中文（繁体）, co:科西嘉语, hr:克罗地亚语, cs:捷克语, da:丹麦语, nl:荷兰语, en:英语, eo:世界语, et:爱沙尼亚语, fi:芬兰语, fr:法语, fy:弗里斯兰语, gl:加利西亚语, ka:格鲁吉亚语, de:德语, el:希腊语, gu:古吉拉特语, ht:海地语, ha:豪萨语, haw:夏威夷语, he:希伯来语, hi:印地语, hu:匈牙利语, is:冰岛语, ig:伊博语, id:印度尼西亚语, ga:爱尔兰语, it:意大利语, ja:日语, jv:爪哇语, kn:埃纳德语, kk:哈萨克语, km:高棉语, ky:吉尔吉斯语, ko:韩语, ku:库尔德语, lo:老挝语, la:拉丁语, lv:拉脱维亚语, lt:立陶宛语, lb:卢森堡语, mk:马其顿语, mg:马尔加什语, ms:马来语, ml:马拉雅拉姆, mt:马耳他语, mi:毛利语, mr:马拉地语, mn:蒙古语, hmn:苗语, my:缅甸语, ne:尼泊尔语, no:挪威语, fa:波斯语, pl:波兰语, pt:葡萄牙语, pa:旁遮普语, ps:普什图语, ro:罗马尼亚语, ru:俄语, sm:萨摩亚语, gd:苏格兰盖尔语, sr:塞尔维亚语, sn:修纳语, sd:信德语, si:僧伽罗语, sk:斯洛伐克语, sl:斯洛文尼亚语, so:索马里语, sx:索托语, es:西班牙语, su:巽他语, sw:斯瓦希里语, sv:瑞典语, tl:塔加路语, tg:塔吉克语, ta:泰米尔语, te:泰卢固语, th:泰语, tr:土耳其语, uk:乌克兰语, ur:乌尔都语, uz:乌兹别克语, vi:越南语, cy:威尔士语, xh:雪撒语, yi:第绪语, yo:约鲁巴语, zu:祖鲁语"
+    },
+    "settingsLabel": {
+        "message": "设置"
+    },
+    "generalLabel": {
+        "message": "常规"
+    },
+    "targetLangCaptionLabel": {
+        "message": "选择默认的目标语言。"
+    },
+    "webPageLabel": {
+        "message": "网页"
+    },
+    "ifShowCandidateLabel": {
+        "message": "显示候选译文"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "翻译单词时显示多项候选翻译。"
+    },
+    "whenSelectTextLabel": {
+        "message": "选中文本时的行为"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "显示翻译面板"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "直接显示翻译面板而不显示按钮。"
+    },
+    "ifShowButtonLabel": {
+        "message": "显示翻译按钮"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "显示翻译按钮并在单击按钮时打开面板。"
+    },
+    "dontshowbuttonlabel": {
+        "message": "不显示按钮或面板"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "不显示翻译按钮或翻译面板。"
+    },
+    "ifCheckLangLabel": {
+        "message": "如果不需要翻译，则不显示按钮"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "检测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "在文本输入框中禁用翻译"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "当用户在文本输入框中选择文本时，不显示翻译按钮或面板。"
+    },
+    "disableUrlListLabel": {
+        "message": "要禁用翻译的 URL 列表"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "如果页面的URL与该列表相匹配，该页面的翻译功能将被禁用。列表允许使用“*”通配符。"
+    },
+    "toolbarLabel": {
+        "message": "工具栏弹出窗口"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "自动切换到第二语言"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "检测文本输入所用的语言，如果它与默认的目标语言相同，则将它翻译为第二语言。"
+    },
+    "secondTargetLangLabel": {
+        "message": "第二语言"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "选择第二种目标语言。"
+    },
+    "waitTimeLabel": {
+        "message": "翻译等待时间"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "指定从字符输入到翻译开始的等待时间。（毫秒）"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "如果您在短时间内多次翻译，它可能会在一段时间内无法使用。"
+    },
+    "menuLabel": {
+        "message": "右键菜单"
+    },
+    "ifShowMenuLabel": {
+        "message": "显示右键菜单"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "将翻译选项添加到网页或标签页的右键菜单中。"
+    },
+    "styleLabel": {
+        "message": "样式"
+    },
+    "buttonStyleLabel": {
+        "message": "翻译按钮"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "指定在网页上显示的翻译按钮的样式。"
+    },
+    "buttonSizeLabel": {
+        "message": "大小"
+    },
+    "buttonPositionLabel": {
+        "message": "显示位置"
+    },
+    "topRightLabel": {
+        "message": "右上角"
+    },
+    "bottomRightLabel": {
+        "message": "右下角"
+    },
+    "topLeftLabel": {
+        "message": "左上角"
+    },
+    "bottomLeftLabel": {
+        "message": "左下角"
+    },
+    "topLabel": {
+        "message": "顶部"
+    },
+    "bottomLabel": {
+        "message": "底部"
+    },
+    "leftLabel": {
+        "message": "左侧"
+    },
+    "rightLabel": {
+        "message": "右侧"
+    },
+    "positionOffsetLabel": {
+        "message": "显示位置 - 偏移"
+    },
+    "panelStyleLabel": {
+        "message": "翻译面板"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "指定在网页上显示的翻译面板的样式。"
+    },
+    "widthLabel": {
+        "message": "宽度"
+    },
+    "heightLabel": {
+        "message": "高度"
+    },
+    "fontSizeLabel": {
+        "message": "字体大小"
+    },
+    "referencePointLabel": {
+        "message": "显示位置 - 参考点"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "所选文本的底部"
+    },
+    "topSelectedTextLabel": {
+        "message": "所选文本的顶部"
+    },
+    "clickedPointLabel": {
+        "message": "点击的位置"
+    },
+    "displayDirectionLabel": {
+        "message": "显示位置 - 方向"
+    },
+    "resultFontColorLabel": {
+        "message": "翻译结果的字体颜色"
+    },
+    "candidateFontColorLabel": {
+        "message": "翻译候选的字体颜色"
+    },
+    "bgColorLabel": {
+        "message": "背景色"
+    },
+    "otherLabel": {
+        "message": "其他"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "更新时显示选项页面"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "当易翻译完成更新后显示选项页面。从而使您快速了解更新内容。"
+    },
+    "isDebugModeLabel": {
+        "message": "启用调试模式"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "启用调试模式后, 日志将输出到调试器。"
+    },
+    "resetSettingsLabel": {
+        "message": "重置设置"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "恢复所有设置为默认值。"
+    },
+    "resetSettingsButtonLabel": {
+        "message": "重置"
+    },
+    "shortcutsLabel": {
+        "message": "快捷键"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "键盘快捷键"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "设置键盘快捷键。"
+    },
+    "typeShortcutMessage": {
+        "message": "输入快捷键"
+    },
+    "typeLetterMessage": {
+        "message": "输入一个字母"
+    },
+    "includeModifierKeysMessage": {
+        "message": "必须包含 Ctrl 或 Alt"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "必须包含 Command，Ctrl 或 Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "不能使用此字母"
+    },
+    "invalidShortcutMessage": {
+        "message": "不能使用此快捷键"
+    },
+    "clear": {
+        "message": "清除"
+    },
+    "reset": {
+        "message": "重置"
+    },
+    "informationLabel": {
+        "message": "信息"
+    },
+    "backersLabel": {
+        "message": "赞助者清单"
+    },
+    "licenseLabel": {
+        "message": "许可协议"
+    },
+    "donationLabel": {
+        "message": "请捐赠"
+    },
+    "donationCaptionLabel": {
+        "message": "感谢您使用易翻译！<br>您的支持会是我继续开发此插件的动力。<br>如果易翻译给您带来了帮助，希望您可以给予开发者力所能及的捐赠。"
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp 电子礼品卡"
+    },
+    "addonPageLabel": {
+        "message": "附加组件页面"
+    },
+    "extensionPageLabel": {
+        "message": "拓展页面"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/zh-CN/firefox/addon/yi-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "错误：请检查您的网络连接状态。"
+    },
+    "unavailableError": {
+        "message": "错误：已达到服务使用限制。请稍后再试。"
+    },
+    "unknownError": {
+        "message": "错误：未知错误"
+    },
+    "translatePageMenu": {
+        "message": "翻译此页面"
+    },
+    "translateTextMenu": {
+        "message": "翻译选中的文本"
+    },
+    "translateLinkMenu": {
+        "message": "翻译选中的链接"
+    },
+    "openPopupDescription": {
+        "message": "打开工具栏弹出窗口"
+    }
 }
