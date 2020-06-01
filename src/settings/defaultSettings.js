@@ -96,7 +96,7 @@ export default [
             title: "ifCheckLangLabel",
             captions: ["ifCheckLangCaptionLabel"],
             type: "checkbox",
-            default: true,
+            default: false,
             hr: true
           }
         ]
@@ -106,7 +106,7 @@ export default [
         title: "ifChangeSecondLangLabel",
         captions: ["ifChangeSecondLangOnPageCaptionLabel"],
         type: "checkbox",
-        default: false
+        default: true
       },
       {
         id: "isDisabledInTextFields",
