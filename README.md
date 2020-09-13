@@ -28,7 +28,7 @@
 
 ---
 
-## Donate
+<!-- ## Donate
 
 The developer accept donations from these platforms:
 
@@ -48,7 +48,7 @@ donate with Buy Me A Coffee :
 
 使用 爱发电 进行捐赠 : (https://afdian.net/@lyldev)
 
----
+--- -->
 
 ## Get Addon
 
