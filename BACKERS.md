@@ -1,15 +1,19 @@
-# BACKERS
+# 鸣谢
 
-Thanks to you awesome backers who supported Yi Translate!
+感谢以下捐赠者的支持！
+Thanks to you awesome supporters who supported Yi Translate!
 
-<a href=https://www.patreon.com/lyldev >
-<img src=https://c5.patreon.com/external/logo/become_a_patron_button.png alt="Became a patreon">
+<a href=https://afdian.net/@lyldev/plan >
+
+<img src="other\images\afdian.png" alt="发电支持一下">
 </a>
 
-## Backers via Patreon
+## 感谢他们通过 爱发电 进行支持（Supporters via afdian.net）
 
-- xxx
-- xxx
-- xxx
-- xxx
-- xxx
+- QQ*
+- 爱发电用户_893C
+
+## 感谢他们通过 冲呀 进行支持（Supporters via chongya.com）
+
+- 风起云涌
+- 普罗托
