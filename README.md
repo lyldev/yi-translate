@@ -56,7 +56,10 @@ donate with Buy Me A Coffee :
 
 [<img src="other\browser-icons\edge-100.png" width="40" height="40" align="center" alt="for Firefox">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Microsoft Edge: https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm
 
+---
+
 ## 鸣谢（Thanks）
 
 感谢以下 **[捐赠者](https://github.com/lyldev/yi-translate/blob/master/BACKERS.md)** 的支持！
+
 Thank you to the awesome **[Supportters](https://github.com/lyldev/yi-translate/blob/master/BACKERS.md)** who supported Yi Translate!
