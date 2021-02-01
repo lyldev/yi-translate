@@ -1,7 +1,8 @@
 <!-- # <sub><img src="src/icons/64.png" width=32px height=32px></sub> &ensp;Yi Translate -->
-# <p align='center' ><sub><img src="src/icons/64.png" width=42px height=42px></sub> Yi Translate</p>
-<!-- ## &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;An Easy-to-Use Add-on for Broswers. -->
-### <p align='center' >{ An Easy-to-Use Translate Add-on for Broswers }</p>
+<p align='center' ><sub><img src="src/icons/64.png" width=50px height=50px></sub></p>
+
+# <p align='center' > Yi Translate</p>
+<p align='center' >{ An Easy-to-Use Translate Add-on for Broswers }</p>
 
 ---
 
