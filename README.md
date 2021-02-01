@@ -1,11 +1,11 @@
 <!-- # <sub><img src="src/icons/64.png" width=32px height=32px></sub> &ensp;Yi Translate -->
-<div align='center' ><font size='8'<sub><img src="src/icons/64.png" width=42px height=42px></sub> Yi Translate</font></div>
+<p align='center' ><sub><img src="src/icons/64.png" width=42px height=42px></sub><font size='8'> Yi Translate</font></p>
 <!-- ## &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;An Easy-to-Use Add-on for Broswers. -->
-<div align='center' ><font size='5'>{ An Easy-to-Use Translate Add-on for Broswers }</font></div>
+<p align='center' ><font size='5'>{ An Easy-to-Use Translate Add-on for Broswers }</font></p>
 
 ---
 
-## Main Features
+## Main Features 
 
 #### 1. Selection Translation:
     You can select Text, Links and even Webpages in your browser, then you'll get its translation conveniently.
