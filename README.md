@@ -17,7 +17,7 @@
 #### 4. 多语言支持 (Multi-languages support):
     You can configure different source language and target language manually.
 #### 5. 多浏览器支持 (Multi-browser support):
-    Mozilla Firefox support till now. Google Chrome and Microsoft Edge incoming.
+    Mozilla Firefox support till now. Google Chrome and Microsoft Edge upcoming...
 
 ---
 
