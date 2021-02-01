@@ -1,4 +1,9 @@
-# <sub><img src="src/icons/128.png" width=64px height=64px></sub> Yi Translate
+<!-- # <sub><img src="src/icons/64.png" width=32px height=32px></sub> &ensp;Yi Translate -->
+<div align='center' ><font size='8'<sub><img src="src/icons/64.png" width=42px height=42px></sub> Yi Translate</font></div>
+<!-- ## &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;An Easy-to-Use Add-on for Broswers. -->
+<div align='center' ><font size='5'>{ An Easy-to-Use Translate Add-on for Broswers }</font></div>
+
+---
 
 ## Main Features
 
@@ -28,33 +33,15 @@
 
 ---
 
-<!-- ## Donate
-
-The developer accept donations from these platforms:
-
-donate with Patreon : 
-[<img
-    src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Donate with patreon"
-    height="38px" width="162px" align="center"
-/>](https://www.patreon.com/lyldev)
-
-donate with Buy Me A Coffee : 
-[<img
-    src="https://cdn.buymeacoffee.com/buttons/arial-violet.png" alt="Donate with buymeacoffee"
-    height="38px" width="162px" align="center"
-/>](https://www.buymeacoffee.com/lyldev)
-
-使用 冲呀 进行捐赠 : (https://www.chongya.com/@lyldev)
-
-使用 爱发电 进行捐赠 : (https://afdian.net/@lyldev)
-
---- -->
-
 ## Get Addon
 
-[<img src="other\browser-icons\firefox-100.png" width="40" height="40" align="center" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/yi-translate/)    for Mozilla Firefox: https://addons.mozilla.org/firefox/addon/yi-translate/
+[<img src="other\browser-icons\firefox-100.png" width="40" height="40" align="center" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/yi-translate/)    for Firefox: https://addons.mozilla.org/firefox/addon/yi-translate/
 
-[<img src="other\browser-icons\edge-100.png" width="40" height="40" align="center" alt="for Firefox">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Microsoft Edge: https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm
+[<img src="other\browser-icons\chrome-100.png" width="40" height="40" align="center" alt="for Chrome">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Chrome: upcoming...
+<!-- [<img src="other\browser-icons\chrome-100.png" width="40" height="40" align="center" alt="for Chrome">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Chrome: https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm -->
+
+[<img src="other\browser-icons\edge-100.png" width="40" height="40" align="center" alt="for Edge">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Edge: upcoming...
+<!-- [<img src="other\browser-icons\edge-100.png" width="40" height="40" align="center" alt="for Edge">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Edge: https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm -->
 
 ---
 
@@ -63,3 +50,26 @@ donate with Buy Me A Coffee :
 感谢以下 **[捐赠者](https://github.com/lyldev/yi-translate/blob/master/BACKERS.md)** 的支持！
 
 Thank you to the awesome **[Supportters](https://github.com/lyldev/yi-translate/blob/master/BACKERS.md)** who supported Yi Translate!
+
+---
+
+## 捐赠 (Donate)
+
+The developer accept donations from these platforms:
+
+<!-- 使用 冲呀 进行捐赠 : (https://www.chongya.com/@lyldev) -->
+
+使用 爱发电 进行捐赠 : (https://afdian.net/@lyldev)
+
+<!-- donate with Patreon : 
+[<img
+    src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Donate with patreon"
+    height="38px" width="162px" align="center"
+/>](https://www.patreon.com/lyldev) -->
+
+Donate with Buy Me A Coffee : 
+[<img
+    src="https://cdn.buymeacoffee.com/buttons/arial-violet.png" alt="Donate with buymeacoffee"
+    height="38px" width="162px" align="center"
+/>](https://www.buymeacoffee.com/lyldev)
+
