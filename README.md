@@ -17,7 +17,7 @@
 #### 4. 多语言支持 (Multi-languages support):
     You can configure different source language and target language manually.
 #### 5. 多浏览器支持 (Multi-browser support):
-    Mozilla Firefox support till now. Google Chrome and Microsoft Edge upcoming...
+    Mozilla Firefox and Google Chrome support till now. Microsoft Edge upcoming...
 
 ---
 
@@ -38,8 +38,7 @@
 
 [<img src="other\browser-icons\firefox-100.png" width="40" height="40" align="center" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/yi-translate/)    for Firefox: https://addons.mozilla.org/firefox/addon/yi-translate/
 
-[<img src="other\browser-icons\chrome-100.png" width="40" height="40" align="center" alt="for Chrome">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Chrome: upcoming...
-<!-- [<img src="other\browser-icons\chrome-100.png" width="40" height="40" align="center" alt="for Chrome">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Chrome: https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm -->
+[<img src="other\browser-icons\chrome-100.png" width="40" height="40" align="center" alt="for Chrome">](https://chrome.google.com/webstore/detail/yi-translate/faljelicjmfoeappigahkpajbfbkimpj)    for Chrome: https://chrome.google.com/webstore/detail/yi-translate/faljelicjmfoeappigahkpajbfbkimpj
 
 [<img src="other\browser-icons\edge-100.png" width="40" height="40" align="center" alt="for Edge">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Edge: upcoming...
 <!-- [<img src="other\browser-icons\edge-100.png" width="40" height="40" align="center" alt="for Edge">](https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm)    for Edge: https://microsoftedge.microsoft.com/addons/detail/edfmadficdboalegoclejlgabmheafbm -->

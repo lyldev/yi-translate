@@ -11,5 +11,5 @@ export const buymeacoffeeLink = `https://www.buymeacoffee.com/lyldev`;
 export const chongyaLink = `https://www.chongya.com/@lyldev`;
 export const afdianLink = `https://afdian.net/@lyldev`;
 // addon url
-export const chromeExtensionUrl = `https://chrome.google.com/webstore/detail/notavailablenow`;
+export const chromeExtensionUrl = `https://chrome.google.com/webstore/detail/yi-translate/faljelicjmfoeappigahkpajbfbkimpj`;
 export const firefoxAddonUrl = `https://addons.mozilla.org/firefox/addon/yi-translate/`;
