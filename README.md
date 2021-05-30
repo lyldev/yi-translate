@@ -2,9 +2,10 @@
 <p align='center' ><sub><img src="src/icons/64.png" width=50px height=50px></sub></p>
 
 # <p align='center' > 易翻译 (Yi Translate)</p>
-> <p align='center' >{ An Easy-to-Use Translate Add-on for Broswers }</p>
+> <p align='center' >『 Translation Evolution 』</p>
 
 ---
+**通知：开发者即日起入驻爱发电平台接收捐赠**
 
 ## 主要特性 (Main Features)
 
@@ -60,7 +61,6 @@ The developer accept donations from these platforms:
 
 <!-- 使用 冲呀 进行捐赠 : (https://www.chongya.com/@lyldev) -->
 
-**通知：开发者即日起入驻爱发电平台接收捐赠**
 
 使用 爱发电 进行捐赠 : (https://afdian.net/@lyldev)
 
