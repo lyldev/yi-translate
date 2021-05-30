@@ -9,7 +9,8 @@
 ## 主要特性 (Main Features)
 
 #### 1. 划词翻译 (Selection Translation):
-    You can select Text, Links and even Webpages in your browser, then you'll get its translation conveniently.
+    You can select Text, Links and even Webpages in your browser, 
+    then you'll see its translation.
 #### 2. 输入翻译 (Input Translation):
     You can input text in the extension's popup, and get translation immediately.
 #### 3. 自定义快捷键支持 (Keyboard shortcuts support):
@@ -58,6 +59,8 @@ Thank you to the awesome **[Supportters](https://github.com/lyldev/yi-translate/
 The developer accept donations from these platforms:
 
 <!-- 使用 冲呀 进行捐赠 : (https://www.chongya.com/@lyldev) -->
+
+**通知：开发者即日起入驻爱发电平台接收捐赠**
 
 使用 爱发电 进行捐赠 : (https://afdian.net/@lyldev)
 
