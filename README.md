@@ -5,8 +5,6 @@
 > <p align='center' >『 Translation Evolution 』</p>
 
 ---
-## 通知：开发者即日起入驻爱发电平台接收捐赠 2021/05/30
-使用 爱发电 进行捐赠 : (https://afdian.net/@lyldev)
 
 ## 主要特性 (Main Features)
 
