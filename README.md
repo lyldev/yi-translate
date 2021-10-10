@@ -43,7 +43,6 @@
 
 Thank you to the awesome **[Supportters](https://github.com/lyldev/yi-translate/blob/master/BACKERS.md)** who supported Yi Translate!
 
----
 
 ## Attribute
 
