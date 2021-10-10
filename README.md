@@ -2,9 +2,10 @@
 <p align='center' ><sub><img src="src/icons/64.png" width=50px height=50px></sub></p>
 
 # <p align='center' > Yi Translate</p>
-> <p align='center' >{ An Easy-to-Use Translate Add-on for Broswers }</p>
 
-
+```
+This is an Easy-to-Use Translate Add-on for multiple broswers.
+```
 
 ## Main Features
 
