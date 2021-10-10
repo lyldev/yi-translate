@@ -19,9 +19,9 @@
 
 ## Contribute
 
-### 1. open issues to report bugs or new needed features
+#### 1. open issues to report bugs or new needed features
 
-### 2. clone this repo to fix bugs or add new features, then pull request
+#### 2. clone this repo to fix bugs or add new features, then pull request
 
     (1). Clone the repository 
     (2). Run `npm install`
