@@ -15,6 +15,8 @@ Thanks to you awesome supporters who supported Yi Translate! (In no particular o
 ### 感谢TA们通过 Buy Me a Coffee 进行支持（Supporters via Buy Me a Coffee）
 
 - L. Wiedemann
+- mihailvolnuy
+- wugee782
 
 ### 感谢TA们通过 爱发电 进行支持（Supporters via afdian.net）
 
