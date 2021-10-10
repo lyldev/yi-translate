@@ -66,7 +66,7 @@ fieldset {
 .updated > .optionElement p:nth-child(1)::after {
   color: var(--new);
   font-size: 14px;
-  border: 1px solid var(--new);
+  border: 2px solid var(--new);
   border-radius: 2px;
   padding: 0px 5px;
   margin-left: 5px;
@@ -87,11 +87,11 @@ textarea {
 
 textarea {
   -moz-appearance: textfield;
-  border: 1px var(--button) solid;
+  border: 2px var(--button) solid;
   border-radius: 2px;
   padding-left: 5px;
   padding-right: 5px;
-  padding: 5px;
+  padding: 3px;
   width: calc(100% - 12px) !important;
   height: 50px;
   min-height: 50px;
@@ -109,7 +109,7 @@ input[type="color"] {
   height: 30px;
   padding-left: 5px;
   padding-right: 5px;
-  border: 1px solid var(--button);
+  border: 2px solid var(--button);
   border-radius: 2px;
 
   &:hover,
@@ -162,7 +162,7 @@ input[type="checkbox"] {
     left: -2px;
     width: 20px;
     height: 20px;
-    border: 1px solid var(--button);
+    border: 2px solid var(--button);
     border-radius: 2px;
   }
   &:hover::before {
@@ -206,7 +206,7 @@ input[type="radio"] {
     left: -2px;
     width: 20px;
     height: 20px;
-    border: 1px solid var(--button);
+    border: 2px solid var(--button);
     border-radius: 50%;
   }
   &:hover::before {
@@ -227,15 +227,16 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   text-overflow: ellipsis;
-  border: var(--button) solid 1px;
+  border: var(--button) solid 2px;
   border-radius: 2px;
-  padding: 3px 5px;
+  padding: 1px 5px;
   padding-right: 20px;
   width: 100%;
   height: 30px;
+  font-size: 14px;
   &:hover,
   &:focus {
-    border: var(--highlight) solid 1px;
+    border: var(--highlight) solid 2px;
   }
 }
 
@@ -272,11 +273,11 @@ input[type="button"],
 .button {
   min-width: 100px;
   text-align: center;
-  padding: 5px;
+  padding: 2px;
   height: 30px;
   font-size: 13px;
   color: var(--main-text);
-  border: 1px solid var(--button);
+  border: 2px solid var(--button);
   border-radius: 2px;
   background-color: #fbfbfb;
   cursor: pointer;
